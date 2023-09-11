@@ -1,0 +1,329 @@
+.head{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+.head a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #FFF;
+}
+
+body{
+    background-color: #5E6B7A;
+}
+
+.head a:hover{
+    text-decoration: none;
+    color: #E8983A;
+    border-bottom: 1px solid #E8983A;
+}
+
+.mainnav > li{
+    float: left;
+    list-style: none;
+    margin-left: 0;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+.mainnav > li >a:active{
+    text-decoration: none;
+    color: #E8983A;
+    border-bottom: 1px solid #E8983A;
+}
+
+.mainnav > li > a{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+   
+}
+
+.mainnav > li:hover .worksnav{
+    display: block;
+}
+
+.mainnav > li:hover .aboutnav{
+    display: block;
+}
+
+.worksnav{
+    width: 100%;
+    display: none;
+    position: absolute;
+}
+
+.aboutnav{
+    width: 100%;
+    display: none;
+    position: absolute;
+}
+
+.worksnav li{
+    list-style: none;
+    margin-left: -40px;
+    text-align: left;
+}
+
+.aboutnav li{
+    list-style: none;
+    margin-left: -40px;
+    text-align: left;
+}
+
+.worksnav a{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background-color: #E8983A;
+    font-size: 14px;
+    display: block;
+    margin-right: 40px;
+    padding-left: 12px;
+    padding: 2px 0px 3px 12px;
+}
+
+.aboutnav a{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background-color: #E8983A;
+    font-size: 14px;
+    display: block;
+    margin-right: 40px;
+    padding-left: 12px;
+    padding: 2px 0px 3px 12px;
+}
+
+.worksnav a:hover{
+    color: #E8983A;
+    background-color: #fff;
+}
+
+.aboutnav a:hover{
+    color: #E8983A;
+    background-color: #fff;
+}
+
+
+.mainnav ul{
+    list-style: none;
+}
+
+.mainnav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.mainnav a:hover{
+    text-decoration: none;
+    color: #E8983A;
+    border-bottom: 2px solid #E8983A;
+}
+
+.digital p{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 15px;
+}
+
+.digital a{
+    text-decoration: none;
+    color: #A7B5C6;
+}
+
+.digital p{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 15px;
+    border-bottom: 1px solid #A7B5C6;
+    margin-right: 1230px;
+}
+
+.digital p:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.web a{
+    text-decoration: none;
+    color: #A7B5C6;
+}
+
+.web p{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 15px;
+    border-bottom: 1px solid #A7B5C6;
+    margin-right: 1245px;
+}
+
+.webp p{
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.web p:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+.printplus a{
+    text-decoration: none;
+    color: #A7B5C6;
+}
+
+.printplus p{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 15px;
+    border-bottom: 1px solid #A7B5C6;
+    margin-right: 1244px;
+}
+
+.printplus p:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.photographyplus a{
+    text-decoration: none;
+    color: #A7B5C6;
+}
+
+.photographyplus p{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 15px;
+    border-bottom: 1px solid #A7B5C6;
+    margin-right: 1184px;
+}
+
+.photographyplus p:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.photophome p{
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+hr{
+    border: 1px solid #A7B5C6;
+}
+
+.photo1thumb{
+    list-style: none;
+}
+
+.photo1thumb a{
+    text-decoration: none;
+}
+
+.photo1thumb p{
+    color: #fff;
+}
+
+.adthumb{
+    list-style: none;
+}
+
+.adthumb a{
+    text-decoration: none;
+}
+
+.adthumb p{
+    color: #fff;
+}
+
+.concertthumb{
+    list-style: none;
+}
+
+.concertthumb a{
+    text-decoration: none;
+}
+
+.concertthumb p{
+    color: #fff;
+}
+
+.artspringthumb{
+    list-style: none;
+}
+
+.artspringthumb a{
+    text-decoration: none;
+}
+
+.artspringthumb p{
+    color: #fff;
+}
+
+.runthumb{
+    list-style: none;
+}
+
+.runthumb a{
+    text-decoration: none;
+}
+
+.runthumb p{
+    color: #fff;
+}
+
+.zinethumb{
+    list-style: none;
+}
+
+.zinethumb a{
+    text-decoration: none;
+}
+
+.zinethumb p{
+    color: #fff;
+}
+
+.museumthumb{
+    list-style: none;
+}
+
+.museumthumb a{
+    text-decoration: none;
+}
+
+.museumthumb p{
+    color: #fff;
+}
+
+.photo2thumb{
+    list-style: none;
+}
+
+.photo2thumb a{
+    text-decoration: none;
+}
+
+.photo2thumb p{
+    color: #fff;
+}
+
+.intro h1{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #E8983A;
+}
+
+.intro p{
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    color: #fff;
+}
