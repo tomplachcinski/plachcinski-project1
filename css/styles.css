@@ -327,3 +327,24 @@ hr{
     font-size: 18px;
     color: #fff;
 }
+
+#dig img{
+    width:100%;
+}
+
+#webb img{
+    width: 100%;
+}
+
+#print img{
+    width: 100%;
+}
+
+#photographyhome img{
+    width: 100%;
+}
+
+#footerpics img{
+    display:inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+}
