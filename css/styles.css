@@ -21,11 +21,13 @@ body{
     border-bottom: 1px solid #E8983A;
 }
 
+
+
 .mainnav > li{
     float: left;
     list-style: none;
     margin-left: 0;
-    width: 25%;
+    width: 15%;
     text-align: center;
     position: relative;
 }
@@ -40,7 +42,6 @@ body{
     font-family: 'Inter', sans-serif;
     color: #fff;
     font-size: 18px;
-    display: block;
    
 }
 
@@ -53,20 +54,21 @@ body{
 }
 
 .worksnav{
-    width: 100%;
+    width: 60%;
     display: none;
     position: absolute;
+    margin-left: 20px;
 }
 
 .aboutnav{
-    width: 100%;
+    width: 70%;
     display: none;
     position: absolute;
 }
 
 .worksnav li{
     list-style: none;
-    margin-left: -40px;
+    margin-left: -50px;
     text-align: left;
 }
 
@@ -82,8 +84,6 @@ body{
     background-color: #E8983A;
     font-size: 14px;
     display: block;
-    margin-right: 40px;
-    padding-left: 12px;
     padding: 2px 0px 3px 12px;
 }
 
@@ -93,8 +93,7 @@ body{
     background-color: #E8983A;
     font-size: 14px;
     display: block;
-    margin-right: 40px;
-    padding-left: 12px;
+
     padding: 2px 0px 3px 12px;
 }
 
@@ -324,7 +323,7 @@ hr{
 
 .intro p{
     font-family: 'Arvo', serif;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #fff;
 }
 
@@ -498,6 +497,38 @@ footer ul{
     font-size: 1.5rem;
     color: #fff;
     margin-top: 20px;
+}
+
+.digitalhome img{
+    padding-top: 50px;
+}
+
+.digitalhome p{
+    padding-bottom: 50px;
+}
+
+#webb img{
+    padding-top: 50px;
+}
+
+.webhome p{
+    padding-bottom: 50px;
+}
+
+#print img{
+    padding-top: 50px;
+}
+
+.printhome p{
+    padding-bottom: 50px;
+}
+
+#photographyhome img{
+    padding-top: 50px;
+}
+
+.photohome p{
+    padding-bottom: 50px;
 }
 
 
