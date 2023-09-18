@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=“viewport” content="width=" device-width; initial-scale=1.0” />
+    <title>Thomas Plachcinski</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+</head>
+
+<body>
+    <div class="col-4 text-center d-lg-none">
+    <div class="dropdown">
+        <button onlclick="show_hide()"
+        class="button"><img src="images/1024px-Hamburger_icon_white.svg.png" alt="#"></button>
+
+
+        <div id="list-items">
+            <a href="index.html">Home</a>
+            <a href="deepdive.html">Work</a>
+            <a href="resume.html">Resume</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function show_hide() {
+        var click = document.getElementById ("list-items");
+        if (click.style.display === "none"){
+            click.style.display = "block";
+        } else {
+            click.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>

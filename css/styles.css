@@ -348,3 +348,161 @@ hr{
     display:inline-block;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+#aboot h1{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 8rem;
+    color: #E8983A;
+}
+
+#aboot p{
+    font-family: 'Arvo', serif;
+    font-weight:400;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 90px;
+}
+
+.about2 h2{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 6rem;
+    color: #E8983A;
+}
+
+.about2{
+    margin-top: 50px;
+}
+
+.about2 h3{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-top: 110px;
+    margin-right: 290px;
+}
+
+.about2 p{
+    font-family: 'Arvo', serif;
+    font-weight:400;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.about2 img{
+    margin-top: 50px;
+}
+
+.about3 h3{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-right: 320px;
+}
+
+.about3 p{
+    font-family: 'Arvo', serif;
+    font-weight:400;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.about3{
+    margin-top: 100px;
+}
+
+.about4 h3{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-right: 270px;
+}
+
+.about4 p{
+    font-family: 'Arvo', serif;
+    font-weight:400;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.about4{
+    margin-top: 100px;
+}
+
+.cliche h3{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-right: 200px;
+}
+
+.cliche p{
+    font-family: 'Arvo', serif;
+    font-weight:400;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.cliche{
+    margin-top: 100px;
+}
+
+.ab2blurb{
+    margin-top: 40px;
+}
+
+.ad3blurb{
+    margin-top: 40px;
+}
+
+.ad4blurb{
+    margin-top: 10px;
+}
+
+.contactinfo ul{
+    list-style: none;
+    
+}
+
+.contactinfo li a{
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.digital h1{
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 10em;
+    color: #E8983A;
+    margin-top: -500px;
+    margin-left: 50px;
+}
+
+.digitalblurb p{
+    font-family: 'Arvo', serif;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+  
+
+  
+
+
