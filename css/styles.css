@@ -1,8 +1,11 @@
+header{
+    padding-top: 20px;
+}
+
 .head{
     font-family: 'Inter', sans-serif;
     color: #fff;
     font-size: 15px;
-    
 }
 
 .head a{
@@ -21,11 +24,14 @@ body{
     border-bottom: 1px solid #E8983A;
 }
 
-
+.mainnav > ul{
+    float:right
+}
 
 .mainnav > li{
     float: left;
     list-style: none;
+    
     margin-left: 0;
     width: 15%;
     text-align: center;
@@ -138,7 +144,6 @@ body{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
-    border-bottom: 1px solid #A7B5C6;
     margin-right: 1230px;
 }
 
@@ -156,7 +161,6 @@ body{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
-    border-bottom: 1px solid #A7B5C6;
     margin-right: 1245px;
 }
 
@@ -181,7 +185,6 @@ body{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
-    border-bottom: 1px solid #A7B5C6;
     margin-right: 1244px;
 }
 
@@ -199,7 +202,6 @@ body{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
-    border-bottom: 1px solid #A7B5C6;
     margin-right: 1184px;
 }
 
@@ -318,13 +320,18 @@ hr{
     font-family: 'Arvo', serif;
     font-weight: bold;
     font-size: 60px;
-    color: #E8983A;
+    color: #E8983A; 
 }
 
 .intro p{
     font-family: 'Arvo', serif;
     font-size: 1.5rem;
     color: #fff;
+}
+
+.intro{
+    margin-top: 80px;
+    margin-bottom: 70px;
 }
 
 #dig img{
@@ -360,14 +367,16 @@ hr{
     font-weight:400;
     font-size: 1.5rem;
     color: #fff;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .about2 h2{
     font-family: 'Arvo', serif;
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 3.9rem;
     color: #E8983A;
+    padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 .about2{
@@ -380,7 +389,7 @@ hr{
     font-size: 3rem;
     color: #fff;
     border-bottom: 2px solid #fff;
-    margin-top: 110px;
+    margin-top: 70px;
     margin-right: 290px;
 }
 
@@ -413,6 +422,19 @@ hr{
 
 .about3{
     margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.musicimg img{
+    padding-top: 50px;
+}
+
+.foodimg{
+    margin-top: -50px;
+}
+
+.foodimg img{
+    padding-top: 50px;
 }
 
 .about4 h3{
@@ -531,7 +553,421 @@ footer ul{
     padding-bottom: 50px;
 }
 
+.digitaltit p{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 1.2rem;
+    color: #A7B5C6;
+    margin-top: 60px;
+}
 
+.adthumb2 img{
+    margin-top: 30px;
+}
+
+.addesc2 p{
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+.fontthumb2 img{
+    margin-top: 30px;
+}
+
+.fontdesc2 p{
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+.concertthumb2 img{
+    margin-top: 50px;
+}
+
+.condesc2 p{
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+.grafthumb2 img{
+    margin-top: 50px;
+}
+
+.grafdesc2 p{
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+.banner{
+    margin-top: 40px;
+}
+
+.adheader img{
+    margin-top: 80px;
+}
+
+.adblurb h2{
+    font-family: 'Arvo', serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    color: #E8983A;
+    padding-top: 30px;
+}
+
+.adblurb h3{
+    font-family: 'Inter', sans-serif;
+    color: #E8983A;
+    font-size: 2rem;
+}
+
+.adblurb p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.blurbad p{
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    color: #fff;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.kenny img{
+    padding-top: 80px;
+}
+
+.fontbig img{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#pos p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #fff;
+   padding-bottom: 50px;
+   padding-top: 20px;
+}
+
+.cure p{
+    padding-bottom: 80px;
+}
+
+.surrd h2{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: -12px;
+}
+
+.surrd p{
+    font-family: 'Arvo', serif;
+    font-size: 1.43rem;
+    color: #fff;
+}
+
+.processblurb p{
+    font-family: 'Arvo', serif;
+    font-size: 1.9rem;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.usertests li{
+    list-style: none;
+}
+
+
+.anna img{
+margin-top: 14px;
+padding-top: 30px;
+}
+
+.joseph img{
+    margin-top: 30px;
+}
+
+
+.mike img{
+     margin-top: 30px;
+}
+
+.ia img{
+    margin-top: -560px;
+}
+
+.wirep p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.wire4 img{
+padding-top: 69px;
+}
+
+.wire5 img{
+    padding-top: 69px;
+}
+
+.wire6 img{
+    padding-top: 69px;
+}
+
+.wireout p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.balls2 img{
+    padding-right: 40px;
+    margin-top: 123px;
+}
+
+.tile3 img{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.tile1 img{
+    padding-top: 60px;
+}
+
+.tile2 img{
+
+    padding-top: 60px;
+}
+
+.mockups p{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 15px;
+    color: #A7B5C6;
+    border-bottom: 1px solid #A7B5C6;
+    margin-right: 1.2rem;
+}
+
+.mockp p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.mocks img{
+    padding-bottom: 20px;
+}
+.mock3 img{
+padding-top: 14px;
+}
+
+.mock4 img{
+    padding-top: 14px;   
+}
+
+.mock5 img{
+    padding-top: 14px;
+}
+
+.mock6 img{
+    padding-top: 14px; 
+}
+
+.history h2{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #E8983A;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.deepbottom p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 90px;
+}
+
+.balls3 img{
+    padding-right: 32px;
+    margin-top: 123px;
+    padding-top: 43px;
+}
+
+.balls3{
+    margin-top: -69px;
+}
+
+.artping a{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.artping:hover{
+    color: #E8983A;
+    border-bottom: 2px solid #E8983A;
+}
+
+.artping{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.site2 p{
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    color: #E8983A;
+    text-decoration: none;
+    border: 2px solid #E8983A;
+    border-radius: 4px;
+    margin-right: 670px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.site2 p:hover{
+    border: 2px solid #fff;
+}
+
+.desktop h3{
+    font-family: 'Arvo', serif;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 447px;
+    margin-bottom: 30px;
+}
+
+.lapset img{
+    padding-bottom: 80px;
+}
+
+.lapset3{
+    padding-bottom: 80px;
+}
+
+.zine3 img{
+    margin-top: 30px;
+}
+
+.zine4 img{
+    margin-top: 30px;
+}
+
+.zine5 img{
+   margin-top: 30px;
+}
+
+.zine6 img{
+    margin-top: 30px;
+}
+
+.zine7 img{
+    margin-top: 30px;
+}
+
+.zine8 img{
+    margin-top: 30px;
+}
+
+.zine9 img{
+    margin-top: 30px;
+}
+
+.zine10 img{
+   margin-top: 30px;
+    padding-bottom: 80px;
+}
+
+.comp h2{
+    font-family: 'Arvo', serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.compp p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.artspread2 img{
+margin-top: 30px;
+}
+
+.artspread3 img{
+    margin-top: 30px;  
+}
+
+.artspread4 img{
+    margin-top: 30px;   
+}
+
+.artspread5 img{
+    margin-top: 30px; 
+}
+
+.infospread2 img{
+    margin-top: 30px;
+}
+    
+.infospread3 img{
+        margin-top: 30px;  
+}
+    
+.infospread4 img{
+        margin-top: 30px;   
+}
+    
+ .infospread5 img{
+        margin-top: 30px; 
+}
+
+.print3 img{
+    margin-top: 30px;
+}
+
+.print4 img{
+    margin-top: 30px;
+}
+
+.museumhr hr{
+    border: 1px solid #5E6B7A;
+    color: #5E6B7A;
+    padding-bottom: 80px;
+}
+
+.bigwrap img{
+    padding-bottom: 80px;
+}
+
+.proc6 img{
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
   
 
   
