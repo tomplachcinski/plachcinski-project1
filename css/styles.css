@@ -55,9 +55,6 @@ body{
     display: block;
 }
 
-.mainnav > li:hover .aboutnav{
-    display: block;
-}
 
 .worksnav{
     width: 60%;
@@ -66,11 +63,6 @@ body{
     margin-left: 20px;
 }
 
-.aboutnav{
-    width: 70%;
-    display: none;
-    position: absolute;
-}
 
 .worksnav li{
     list-style: none;
@@ -78,11 +70,6 @@ body{
     text-align: left;
 }
 
-.aboutnav li{
-    list-style: none;
-    margin-left: -40px;
-    text-align: left;
-}
 
 .worksnav a{
     font-family: 'Inter', sans-serif;
@@ -93,22 +80,7 @@ body{
     padding: 2px 0px 3px 12px;
 }
 
-.aboutnav a{
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-    background-color: #E8983A;
-    font-size: 14px;
-    display: block;
-
-    padding: 2px 0px 3px 12px;
-}
-
 .worksnav a:hover{
-    color: #E8983A;
-    background-color: #fff;
-}
-
-.aboutnav a:hover{
     color: #E8983A;
     background-color: #fff;
 }
@@ -129,7 +101,7 @@ body{
     border-bottom: 2px solid #E8983A;
 }
 
-.digital p{
+.digital h2{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
@@ -140,16 +112,15 @@ body{
     color: #A7B5C6;
 }
 
-.digital p{
+.digital h2{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
     margin-right: 1230px;
 }
 
-.digital p:hover{
+.digital h2:hover{
     color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
 .web a{
@@ -157,20 +128,20 @@ body{
     color: #A7B5C6;
 }
 
-.web p{
+.web h2{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
     margin-right: 1245px;
 }
 
-.webp p{
+.webp h2{
     font-family: 'Arvo', serif;
     font-size: 15px;
     color: #fff;
 }
 
-.web p:hover{
+.web h2:hover{
     color: #fff;
     border-bottom: 1px solid #fff;
 }
@@ -181,14 +152,14 @@ body{
     color: #A7B5C6;
 }
 
-.printplus p{
+.printplus h2{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
     margin-right: 1244px;
 }
 
-.printplus p:hover{
+.printplus h2:hover{
     color: #fff;
     border-bottom: 1px solid #fff;
 }
@@ -198,14 +169,14 @@ body{
     color: #A7B5C6;
 }
 
-.photographyplus p{
+.photographyplus h2{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 15px;
     margin-right: 1184px;
 }
 
-.photographyplus p:hover{
+.photographyplus h2:hover{
     color: #fff;
     border-bottom: 1px solid #fff;
 }
@@ -230,6 +201,7 @@ hr{
 
 .photo1thumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .adthumb{
@@ -242,6 +214,7 @@ hr{
 
 .adthumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .concertthumb{
@@ -254,6 +227,7 @@ hr{
 
 .concertthumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .artspringthumb{
@@ -266,6 +240,7 @@ hr{
 
 .artspringthumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .runthumb{
@@ -278,6 +253,7 @@ hr{
 
 .runthumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .zinethumb{
@@ -290,6 +266,7 @@ hr{
 
 .zinethumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .museumthumb{
@@ -302,6 +279,7 @@ hr{
 
 .museumthumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .photo2thumb{
@@ -314,6 +292,7 @@ hr{
 
 .photo2thumb p{
     color: #fff;
+    padding-top: 20px;
 }
 
 .intro h1{
@@ -358,7 +337,7 @@ hr{
 #aboot h1{
     font-family: 'Arvo', serif;
     font-weight: bold;
-    font-size: 8rem;
+    font-size: 8vw;
     color: #E8983A;
 }
 
@@ -388,9 +367,7 @@ hr{
     font-weight: bold;
     font-size: 3rem;
     color: #fff;
-    border-bottom: 2px solid #fff;
     margin-top: 70px;
-    margin-right: 290px;
 }
 
 .about2 p{
@@ -409,8 +386,6 @@ hr{
     font-weight: bold;
     font-size: 3rem;
     color: #fff;
-    border-bottom: 2px solid #fff;
-    margin-right: 320px;
 }
 
 .about3 p{
@@ -442,8 +417,6 @@ hr{
     font-weight: bold;
     font-size: 3rem;
     color: #fff;
-    border-bottom: 2px solid #fff;
-    margin-right: 270px;
 }
 
 .about4 p{
@@ -462,8 +435,6 @@ hr{
     font-weight: bold;
     font-size: 3rem;
     color: #fff;
-    border-bottom: 2px solid #fff;
-    margin-right: 200px;
 }
 
 .cliche p{
@@ -505,12 +476,12 @@ footer ul{
 }
 
 .digital h1{
-    position: absolute;
+
     font-family: 'Arvo', serif;
     font-weight: bold;
-    font-size: 10em;
+    font-size: 10vw;
     color: #E8983A;
-    margin-top: -500px;
+    margin-top: -25vw;
     margin-left: 50px;
 }
 
@@ -553,7 +524,15 @@ footer ul{
     padding-bottom: 50px;
 }
 
-.digitaltit p{
+.digitaltit h4{
+    font-family: 'Arvo', serif;
+    font-style: italic; 
+    font-size: 1.5rem;
+    color: #A7B5C6;
+    margin-top: 60px;
+}
+
+.digitaltit h2{
     font-family: 'Arvo', serif;
     font-style: italic; 
     font-size: 1.2rem;
@@ -700,6 +679,7 @@ padding-top: 30px;
 
 .joseph img{
     margin-top: 30px;
+    padding-bottom: 60px;
 }
 
 
@@ -715,20 +695,21 @@ padding-top: 30px;
     font-family: 'Arvo', serif;
     font-size: 1.2rem;
     color: #fff;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.wire4 img{
-padding-top: 69px;
+.wire3 img{
+padding-top: 30px;
+padding-bottom: 60px;
 }
 
-.wire5 img{
-    padding-top: 69px;
+.wire2 img{
+    padding-top: 30px;
 }
 
-.wire6 img{
-    padding-top: 69px;
+.wire1 img{
+    padding-top: 30px;
 }
 
 .wireout p{
@@ -746,16 +727,16 @@ padding-top: 69px;
 
 .tile3 img{
     padding-bottom: 60px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .tile1 img{
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .tile2 img{
 
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .mockups p{
@@ -772,12 +753,13 @@ padding-top: 69px;
     font-size: 1.2rem;
     color: #fff;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .mocks img{
     padding-bottom: 20px;
 }
-.mock3 img{
+.mock1 img{
 padding-top: 14px;
 }
 
@@ -836,18 +818,15 @@ padding-top: 14px;
 
 .site2 p{
     font-family: 'Arvo', serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #E8983A;
     text-decoration: none;
-    border: 2px solid #E8983A;
-    border-radius: 4px;
-    margin-right: 670px;
     padding: 5px;
     padding-left: 10px;
 }
 
 .site2 p:hover{
-    border: 2px solid #fff;
+    color: #FFF;
 }
 
 .desktop h3{
@@ -968,6 +947,298 @@ margin-top: 30px;
     margin-top: 30px;
     padding-bottom: 80px;
 }
+
+.contactinfo ul{
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contactinfo li{
+    padding-top: 10px;
+}
+
+.contactinfo > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.aboutcontact h3{
+    font-family: 'Inter', sans-serif;
+    color: #E8983A;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+
+.resume{
+    background-color: #E8983A;
+    padding-bottom: 44px;
+    margin-top: 61px;
+    text-decoration: none;
+}
+
+.resume ul{
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    color: #fff;
+    
+    list-style: none;
+    margin-top: -28px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.resume p{
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.resume img{
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 45px;
+}
+
+.resume ul li{
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.port ul{
+    list-style: none;
+}
+
+.titleresume p{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+.gd p{
+    font-family: 'Arvo', serif;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: -25px;
+}
+
+.education h4{
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+    color: #fff;
+    font-style: italic;
+}
+
+.education p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.education ul{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.experience h4{
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+    color: #fff;
+    font-style: italic;
+}
+
+.experience p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.experience ul{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.skills h4{
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+    color: #fff;
+    font-style: italic;
+}
+
+.skills p{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.skills ul{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.skillsside{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+    border-left: 6px solid #E8983A;
+    padding-left: 80px;
+    margin-left: -60px;
+}
+
+.softwares{
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.balls img{
+    padding-right: 35px;
+    padding-bottom: 90px;
+}
+
+.edu hr{
+    border: 3px solid #E8983A;
+    opacity: 100%;
+}
+
+.exp hr{
+    border: 3px solid #E8983A;
+    opacity: 100%;
+}
+
+.ski hr{
+    border: 3px solid #E8983A;
+    opacity: 100%;
+}
+
+.resume a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.resume a:hover{
+    opacity: 50%;
+}
+
+.skilly{
+    margin-top: -22vw;
+    padding-bottom: 80px;
+}
+
+.adthumb img:hover{
+    opacity: 50%;
+}
+
+.concertthumb img:hover{
+    opacity: 50%;
+}
+
+.artspringthumb img:hover{
+    opacity: 50%;
+}
+
+.runthumb img:hover{
+    opacity: 50%;
+}
+
+.zinethumb img:hover{
+    opacity: 50%;
+}
+
+.museumthumb img:hover{
+    opacity: 50%;
+}
+
+.photo1thumb img:hover{
+    opacity: 50%;
+}
+
+.photo2thumb img:hover{
+    opacity: 50%;
+}
+
+.adthumb2 img:hover{
+    opacity: 50%;
+}
+
+.fontthumb2 img:hover{
+    opacity: 50%;
+}
+
+.concertthumb2 img:hover{
+    opacity: 50%;
+}
+
+.grafthumb2 img:hover{
+    opacity: 50%;
+}
+
+.navbar.navbar-custom {
+    background-color: #5E6B7A !important; 
+}
+
+.bg-light{
+    background-color: #5E6B7A !important; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #E8983A;
+}
+
+.navbar-light .navbar-nav .nav-link.hover, .navbar-light .navbar-nav .show>.nav-link {
+    color: #E8983A;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+    background-color: #5E6B7A;
+    border: #5E6B7A;
+    background-clip: padding-box;
+}
+
+
+.navbar-light .navbar-toggler-icon{
+    color: #fff;
+    margin-left: 150px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #5E6B7A;
+    border-color: #5E6B7A;
+}
+
+.backtotop img{
+    margin-top: -60px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #E8983A;
+}
+
+
   
 
   

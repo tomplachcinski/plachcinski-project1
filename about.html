@@ -7,7 +7,7 @@
     <title>Thomas Plachcinski</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -25,45 +25,64 @@
                     <p class="col-5"><a href="index.html">Thomas Plachcinski</a> <br> Graphic Designer <br> Bellmore, NY
                         |
                         Morgantown, WV</p>
-                    <ul class="col-5 offset-2 mainnav">
-                        <li><a class="active" href="index.html">Home</a>
+                    
+                        
+        <nav class="col-5 offset-2 mainnav navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li><a href="digital.html">Works</a>
-                            <ul class="worksnav">
-                                <li><a href="digital.html">Digital</a></li>
-                                <li><a href="web.html">Web</a></li>
-                                <li><a href="print.html">Print</a></li>
-                                <li><a href="photography.html">Photo</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="worksDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Works
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="worksDropdown">
+                                <li><a class="dropdown-item" href="digital.html">Digital</a></li>
+                                <li><a class="dropdown-item" href="web.html">Web</a></li>
+                                <li><a class="dropdown-item" href="print.html">Print</a></li>
+                                <li><a class="dropdown-item" href="photography.html">Photo</a></li>
                             </ul>
                         </li>
-                        <li><a href="resume.html">Resume</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
                         </li>
-                        <li><a href="about.html">About</a>
-                            <ul class="aboutnav">
-                                <li><a href="about.html">Me</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
                         </li>
-
                     </ul>
-                </nav>
+                </div>
             </div>
-        </header>
+            </nav>
+        </nav>
+    </header>
+    </div>
+
 
 
         <!-- ----------------------------
     Header End
 ---------------------------- -->
+
 <div class="container">              
         <section id="aboot">
-
+                
                 <h1 class="my-5">Hi, I'm Tom</h1>
 
   
             <div class="row about1img">
-                <img class="col-6"  src="images/me.png" alt="picture of me smiling with a grey sweatshirt on">
-                <p class="col-5 offset-1"> I'm Thomas Plachcinski, but a lot of people call me Tom. I'm originally from Bellmore, New York, but
+                <div class="col-6">
+                <img class="w-100" src="images/me.png" alt="picture of me smiling with a grey sweatshirt on">
+            </div>
+                <p class="col-lg-5 offset-lg-1 col-md-12"> I'm Thomas Plachcinski, but a lot of people call me Tom. I'm originally from Bellmore, New York, but
                     I got to school at West Virginia University in Morgantown, West Virginia. There, I am a Graphic
                     Design Major. I'm sure some people could have crazy stories on how they got into design, but mine is
                     a little lackluster; I bought Photoshop on my Moms laptop when I was about 15 years old (I got
@@ -74,22 +93,22 @@
                
 
         </div>
-    </div>
+
 
 <div class="container about2">
     <h2>Some things you should know about me:</h2>
     <div class="row">
-        <div class="col-6 ab2blurb">
+        <div class="col-lg-6 col-md-12 ab2blurb">
             <h3>I love fashion</h3>
             <p>Ever since I was a kid, I always loved dressing up. Sure, my friends made fun of me, but who cares in the long run, right? As I got older, I developed a fascination in vintage clothing, as well as high end clothing (I can not afford any of it, but its fun to know history behind it). As I got older, and had more freedom, I started buying more and more, to the point of having a massive collection of vintage clothing. This got me into selling some of my clothes, so that's what I do now! I work at a vintage clothing store here at school</p>
         </div>
-        <div class="col-5 offset-1">
+        <div class="col-lg-5 offset-lg-1 col-md-12 col-sm-12">
             <div class="row">
-                <img class="col-6" src="images/realclothing1.png" alt="picture of me in grey sweatshirt and jeans">
-                <img class="col-6" src="images/realclothing2.png"
+                <img class="col-lg-6 col-md-3 col-sm-3" src="images/realclothing1.png" alt="picture of me in grey sweatshirt and jeans">
+                <img class="col-lg-6 col-md-3 col-sm-3" src="images/realclothing2.png"
                             alt="picture of me in camouflage sweatshirt and white pants">
-                <img class="col-6" src="images/realclothing3.png" alt="picture of me in red quarter zip and jean shorts">
-                <img class="col-6" src="images/realclothing4.png" alt="picture of me in blue fleece and black jeans">
+                <img class="col-lg-6 col-md-3 col-sm-3" src="images/realclothing3.png" alt="picture of me in red quarter zip and jean shorts">
+                <img class="col-lg-6 col-md-3 col-sm-3" src="images/realclothing4.png" alt="picture of me in blue fleece and black jeans">
             </div>
         </div>
     </div>
@@ -97,22 +116,22 @@
             
 <div class="container about3">
     <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="row musicimg">
-                <img class="col-12" src="images/bass11.png" alt="picture of me holding a bass guitar">
-                <img class="col-6" src="images/bass12.png" alt="picture of me playing the bass guitar 1">
-                <img class="col-6" src="images/bass13.png" alt="picture of me playing the bass guitar 2">
+                <img class="col-lg-12 col-md-4 col-sm-4" src="images/bass11.png" alt="picture of me holding a bass guitar">
+                <img class="col-lg-6 col-md-4 col-sm-4" src="images/bass12.png" alt="picture of me playing the bass guitar 1">
+                <img class="col-lg-6 col-md-4 col-sm-4" src="images/bass13.png" alt="picture of me playing the bass guitar 2">
             </div>
         </div>
-        <div class="col-5 offset-1 ad3blurb">
-            <h3 class="col-6">I love music</h3>
+        <div class="col-lg-5 offset-lg-1 col-md-12 ad3blurb">
+            <h3 class="col-lg-7 col-md-12">I love music</h3>
             <p>Hate to say it again, but ever since I was little I was fascinated with music. As with every other kid, I grew up listening to stuff my parents listened to in the car, which is why I am the way I am with music. My parents loved rock, so I grew up listening to bands like Pearl Jam, Guns n' Roses, Pink Floyd; you get the picture. Coming into college, I always wanted to learn how to play an instrument. Thanks to my roommate, Mike (a guitarist), he needed a bassist. So, I did what any good roommate would do, and I learned the bass. Thankfully, we already had a friend who had multiple basses, and could show me the ropes. I fell in love. It was so freeing to be able to hear a song, and think to yourself: “Hey, I can play that!” Or “Hey, I could learn to play that!”. I still have much more to learn, but im very happy with my progress so far. Some bands/musicians I enjoy are: Sonic Youth, The Smiths, Sweet Trip, Aphex Twin, Joy Division, Alex G, Elliot Smith; the list goes on and on. I love hearing new artists for the first time, so if anyone reading this has any suggestions, feel free to contact me!</p>
         </div>     
     </div>
 </div>    
 <div class="container about4">
     <div class="row">
-        <div class="col-6 ab4blurb">
+        <div class="col-lg-6 col-md-12 col-sm-12 ab4blurb">
             <h3>I love cooking</h3>
             <p>I'll give credit where credits due, my love for cooking came from my mom. I always loved standing
                 beside her, watching her make something delicious from bare ingredients. As a kid, I would
@@ -122,13 +141,13 @@
                 it keeps cooking exciting. While it may not always look the prettiest; it tastes good, and
                 that's what matters.</p>
     </div>
-        <div class="col-5 offset-1">
+        <div class="col-lg-5 offset-lg-1 col-md-12 offset-md-1 offset-sm-1">
             <div class="row foodimg">
-                <img class="col-6" src="images/food14.png" alt="korean beef over white rice">
-                <img class="col-6" src="images/food12.png" alt="3 soft shell tacos with pico on top">
-                <img class="col-4" src="images/food13.png" alt="teriyaki chicken over fried rice">
-                <img class="col-4" src="images/food11.png" alt="sesame chicken over glass noodles">
-                <img class="col-4"src="images/food15.png" alt="sweet and spicy korean noodles">
+                <img class="col-lg-6 col-md-2 col-sm-2" src="images/food14.png" alt="korean beef over white rice">
+                <img class="col-lg-6 col-md-2 col-sm-2" src="images/food12.png" alt="3 soft shell tacos with pico on top">
+                <img class="col-lg-4 col-md-2 col-sm-2" src="images/food13.png" alt="teriyaki chicken over fried rice">
+                <img class="col-lg-4 col-md-2 col-sm-2" src="images/food11.png" alt="sesame chicken over glass noodles">
+                <img class="col-lg-4 col-md-2 col-sm-2" src="images/food15.png" alt="sweet and spicy korean noodles">
             </div>
         </div>
     </div>
@@ -136,15 +155,13 @@
 
 <div class="container cliche">
     <div class="row">
-        <h3 class="col-4">Cliche, I know</h3>
+        <h3 class="col-lg-4 col-md-12 col-sm-12">Cliche, I know</h3>
         <p class="col-11">I love design. Basic, right? I couldn't not mention it, its one of my main hobbies. Sure, I get creative burn-out from time to time, but that has never stopped me. I know how to pace myself, and I know when to stop. Design is an important aspect of my life, and I don't think id be who I am today if I wasn't a designer; it feels almost hard-wired into my brain. Don't get me wrong, I love all types of design, from print to digital, but I started a new kind this year that I fell in love with; web design. The ability to build a website or app from the ground up with nothing but code is insane to me, I love it. The whole process behind it, from wireframes, to mocking up, to user testing, I love it all. Now im not saying I don't love other types of design; as long as I'm creative, my brain is happy. But UI/UX and web design is where I hope to end up. While I don't have a lot of work under my belt to show for it, I'm eager to learn more and more and ill take whatever steps necessary to do that.</p>
     </div>
 </div>
-</section>
         
             <section class="container contactinfo">
             <div class="row aboutcontact">
-                <img class="col-1" src="images/instagram-logo-white-on-blackcopy.svg" alt="instagramicon">
                 <h3 class="col-5">If you would like; contact me here:</h3>
                 </div>
                 
@@ -175,39 +192,43 @@
                 <ul>
                    
                 </ul>
-            </div>
-        </div>
     </section>
 
-        <footer>
-            <div class="container">
-                <div class="row py-5">
-                    <ul class="col-5 offset-3 row justify-content-center">
-    
-                        <li class="col-4 iglogo">
-                            <a href="https://www.instagram.com/tomphix.png/" target="_blank">
-                                <img src="images/instagram-logo-white-on-blackcopy.svg" alt="instagram icon">
-                            </a>
-                        </li>
-                        <li class="col-4 mailicon">
-                            <a href="mailto:twp00001@mix.wvu.edu">
-                                <img src="images/Emailpng.svg" alt="email icon">
-                            </a>
-                        </li>
-                        <li class="col-4 linkedlogo">
-                            <a href=" https://www.linkedin.com/in/thomas-plachcinski-78aa2126b/" target="_blank">
-                                <img src="images/linkedin-icon-18-256.svg" alt="linkedin logo">
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="col-1 offset-3 backtotop">
-                        <a href="#top">
-                            <img src="images/backtotopicon.svg" alt="back to top button">
+         <!-- ---------------------------- 
+  Footer
+---------------------------- -->
+
+    <footer>
+        <div class="container">
+            <div class="row py-6">
+                <ul class="col-5 offset-4 row justify-content-center">
+
+                    <li class="col-4 iglogo">
+                        <a href="https://www.instagram.com/tomphix.png/" target="_blank">
+                            <img src="images/instagram-logo-white-on-blackcopy.svg" alt="instagram icon">
                         </a>
-                    </div>
+                    </li>
+                    <li class="col-4 mailicon">
+                        <a href="mailto:twp00001@mix.wvu.edu">
+                            <img src="images/Emailpng.svg" alt="email icon">
+                        </a>
+                    </li>
+                    <li class="col-4 linkedlogo">
+                        <a href=" https://www.linkedin.com/in/thomas-plachcinski-78aa2126b/" target="_blank">
+                            <img src="images/linkedin-icon-18-256.svg" alt="linkedin logo">
+                        </a>
+                    </li>
+                </ul>
+                <div class="col-1 offset-2 backtotop">
+                    <a href="#top">
+                        <img src="images/backtotopicon.svg" alt="back to top button">
+                    </a>
                 </div>
             </div>
-        </footer>
-    </body>
-    
-    </html>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+</body>
+
+</html>

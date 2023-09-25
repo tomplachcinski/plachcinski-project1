@@ -7,7 +7,7 @@
     <title>Thomas Plachcinski</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -25,45 +25,66 @@
                     <p class="col-5"><a href="index.html">Thomas Plachcinski</a> <br> Graphic Designer <br> Bellmore, NY
                         |
                         Morgantown, WV</p>
-                    <ul class="col-5 offset-2 mainnav">
-                        <li><a class="active" href="index.html">Home</a>
+                    
+                        
+        <nav class="col-5 offset-2 mainnav navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li><a href="digital.html">Works</a>
-                            <ul class="worksnav">
-                                <li><a href="digital.html">Digital</a></li>
-                                <li><a href="web.html">Web</a></li>
-                                <li><a href="print.html">Print</a></li>
-                                <li><a href="photography.html">Photo</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="worksDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Works
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="worksDropdown">
+                                <li><a class="dropdown-item" href="digital.html">Digital</a></li>
+                                <li><a class="dropdown-item" href="web.html">Web</a></li>
+                                <li><a class="dropdown-item" href="print.html">Print</a></li>
+                                <li><a class="dropdown-item" href="photography.html">Photo</a></li>
                             </ul>
                         </li>
-                        <li><a href="resume.html">Resume</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="resume.html">Resume</a>
                         </li>
-                        <li><a href="about.html">About</a>
-                            <ul class="aboutnav">
-                                <li><a href="about.html">Me</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
-
                     </ul>
-                </nav>
+                </div>
             </div>
-        </header>
+            </nav>
+        </nav>
+    </header>
+    </div>
+
 
 
         <!-- ----------------------------
     Header End
 ---------------------------- -->
 
-            <header class="banner">
-                <img src="images/banner4.png" alt="grid background behind top banner">
-                <div class="resumetop">
-                <h1>Resume</h1>
-            </div>
-            </header>
+<div class="container">
+    <header class="row banner">
+        <img class="col-12" src="images/banner4.png" alt="grid background behind top banner">
+        <div class="digital">
+        <h1 class="col-12">Resume</h1>
+    </div>
+        
+    </header>
+    </div>
 
-            <div class="resume">
+<div class="container">
+    <div class="row">
+            <div class="col-4 resume">
                 <img src="images/instagram-logo-white-on-blackcopy.svg" alt="small white instagram icon">
                 <p>Portfolio</p>
                 <ul>
@@ -102,8 +123,8 @@
                     <li>- Creating concert posters</li>
                 </ul>          
             </div>
-            
-            <aside class="resumemain">
+
+            <aside class="col-7 offset-1 resumemain">
                 <div class="titleresume">
                     <p>Thomas Plachcinski</p>
                 </div>
@@ -135,13 +156,21 @@
                         <li>2020-2023: Freelance Album Covers for Lo-Fi DJ “Splashii”.</li>
                     </ul>
                 </div>
-            
+
+                    
                 <div class="skills">
                     <h4>Skills</h4>
                     <div class="ski">
                     <hr>
                 </div>
-                    <div class="softwares">
+            
+            </div>
+        </aside>
+        </div>
+        </div>
+                <div class="container skilly">
+                    <div class="row">
+                    <div class="col-4 offset-5 softwares">
                     <p>Softwares</p>
                     <p>Know:</p>
                     <ul>
@@ -159,9 +188,8 @@
                         <li>Blender</li>
                     </ul>
                 </div>
-                </div>
             
-                <div class="skillsside">
+                <div class="col-3 skillsside">
                     <p>Skillsets</p>
                     <p>Know:</p>
                     <ul>
@@ -180,44 +208,44 @@
                     </ul>
                 </div>
             
-            </aside>
+        </div>
+    </div>
             
-            <div class="balls">
-                <img src="images/Ellipse1.png" alt=" ">
-                <img src="images/Ellipse2.png" alt=" ">
-                <img src="images/Ellipse3.png" alt=" ">
-                <img src="images/Ellipse4.png" alt=" ">
-                <img src="images/Ellipse5.png" alt=" ">
-            </div>
-            </div>
+ <!-- ---------------------------- 
+  Footer
+---------------------------- -->
 
-            <div class="container footer">
-                <footer class="footers">
-                    
-                    <section id="footerpics">
-                    <div class="iglogo">
-                        <a href="https://www.instagram.com/tomphix.png/"  target="_blank">
+<footer>
+    <div class="container">
+        <div class="row py-6">
+            <ul class="col-5 offset-4 row justify-content-center">
+
+                <li class="col-4 iglogo">
+                    <a href="https://www.instagram.com/tomphix.png/" target="_blank">
                         <img src="images/instagram-logo-white-on-blackcopy.svg" alt="instagram icon">
                     </a>
-                
-                    </div>
-                    <div class="mailicon">
-                        <a href="mailto:twp00001@mix.wvu.edu">
+                </li>
+                <li class="col-4 mailicon">
+                    <a href="mailto:twp00001@mix.wvu.edu">
                         <img src="images/Emailpng.svg" alt="email icon">
-                        </a>
-                    </div>
-                    <div class="linkedlogo">
-                        <a href=" https://www.linkedin.com/in/thomas-plachcinski-78aa2126b/"  target="_blank">
+                    </a>
+                </li>
+                <li class="col-4 linkedlogo">
+                    <a href=" https://www.linkedin.com/in/thomas-plachcinski-78aa2126b/" target="_blank">
                         <img src="images/linkedin-icon-18-256.svg" alt="linkedin logo">
-                        </a>
-                    </div>
-                </section>
-                        
-                            
-            
-                    </footer>
-                    </div>
-                        
-                        </body>
-                
-                </html>
+                    </a>
+                </li>
+            </ul>
+            <div class="col-1 offset-2 backtotop">
+                <a href="#top">
+                    <img src="images/backtotopicon.svg" alt="back to top button">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+</body>
+
+</html>
